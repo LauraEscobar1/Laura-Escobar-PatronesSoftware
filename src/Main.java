@@ -2,13 +2,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        IrrigationSystem system1 = IrrigationSystem.getInstance();
+        irrigationSystem system1 = irrigationSystem.getInstance();
         system1.turnOnPump();
 
-        IrrigationSystem system2 = IrrigationSystem.getInstance();
+        irrigationSystem system2 = irrigationSystem.getInstance();
 
         if (system1 == system2) {
-            System.out.println("Same irrigation system");
+            System.out.println("Sistema de Riego para el campo");
         }
     }
 }

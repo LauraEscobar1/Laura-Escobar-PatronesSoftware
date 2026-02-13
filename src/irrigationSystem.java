@@ -1,25 +1,20 @@
-public class IrrigationSystem {
+public class irrigationSystem {
 
-    // unique instance
-    private static IrrigationSystem instance;
+    private static irrigationSystem instance;
 
-    // attribute
     private boolean pumpOn;
 
-    // private constructor
-    private IrrigationSystem() {
+    private irrigationSystem() {
         pumpOn = false;
     }
 
-    // get the single instance
-    public static IrrigationSystem getInstance() {
+    public static irrigationSystem getInstance() {
         if (instance == null) {
-            instance = new IrrigationSystem();
+            instance = new irrigationSystem();
         }
         return instance;
     }
 
-    // methods
     public void turnOnPump() {
         pumpOn = true;
         System.out.println("Pump ON");
