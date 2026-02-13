@@ -14,7 +14,6 @@ public class irrigationSystem {
         }
         return instance;
     }
-
     public void turnOnPump() {
         pumpOn = true;
         System.out.println("Pump ON");

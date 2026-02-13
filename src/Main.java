@@ -1,7 +1,6 @@
 public class Main {
 
     public static void main(String[] args) {
-
         irrigationSystem system1 = irrigationSystem.getInstance();
         system1.turnOnPump();
 
